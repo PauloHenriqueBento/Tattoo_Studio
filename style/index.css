@@ -1,5 +1,9 @@
+*{
+    text-decoration: none;
+}
 body{
     margin: 0px;
+    padding: 0px;
     font-size: 16px;
     letter-spacing: 1px;
     font-family: 'Titillium Web', sans-serif;
@@ -15,8 +19,12 @@ body{
 
 header{
     color: #ffffff;
-    background: #000000;
-    
+    background: #120333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 10;
 }
 
 header h1{
@@ -41,26 +49,49 @@ header nav ul li a {
     font-weight: bold;
     text-decoration: none;
     font-size: 20px;
-    margin-left: 7px;
+    margin: 5px;
+    padding: 8px;
 }
 
 header nav ul li a:hover{
-    color: #000;
+    color: #120333;
     background-color: #fff;
 }
 
-/* Banner */
+/* Introducao */
 
-#fundo-banner{   
-    background-color: #1e252e;
-}
-
-#banner{
+.introducao{
     width: 100%;
-    min-width: 300px;
-    margin-bottom: -5px;
+    height:380px;
+    background: url(../imagens/machine.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 55px;
+    text-align: center;
+    padding-top: 90px;
 }
 
+.introducao h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20;
+}
+
+.introducao h2:after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    background: #fff;
+    margin: 4px auto 10px auto;
+}
+
+.introducao p{
+    color: #fff;
+    margin-top: -20px;
+    font-size: 21px;
+}
 /* Rodapé */
 
 footer{
