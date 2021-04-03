@@ -9,15 +9,8 @@ main section{
 
 }
 
-main section h2{
-    text-align: center;
-    padding-top: 60px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    font-size: 30px;
-}
 
-main section img{
+.img-servicos{
     width: 50%;
     max-width: 450px;
     display: inline-block;
@@ -27,13 +20,13 @@ main section img{
     box-shadow: 5px 5px 10px #000;
 }
 
-main section ul{
+.servicos ul{
     display: inline-block;
     width: 45%;
     vertical-align: top;
 }
 
-main section ul li{
+.servicos ul li{
     display: inline-block;
     margin: 25px 0;
 }
@@ -60,6 +53,86 @@ main section ul li{
 }
 
 .btn:hover{
-    color: rgb(255, 0, 0);
-    border-color: rgb(255, 0, 0);
+    background-color: #120333;
+    color: #fff;
+}
+
+/* Portfolio */
+.portfolio{
+    width: 100%;
+    background: #000;
+}
+
+.portfolio h2{
+    color: #fff;
+}
+
+.portfolio ul{
+    margin-bottom: 80px;
+    padding: 0;
+}
+
+.portfolio ul li{
+    display: inline-block;
+    width: 32%;
+    height: 350px;
+    vertical-align: top;
+    margin: 0px 2px;
+    border: 2px solid #fff;
+    text-align: center;
+    box-shadow: 2px 2px 5px #fff;
+}
+.portfolio ul li img{
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio ul li p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.button.btn-branco{
+    color: #fff;
+}
+
+.btn.btn-branco{
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn.btn-branco:hover{
+    background: #fff;
+    color: #000;
+}
+
+/* Sobre */
+.sobre{
+    margin-bottom: 20px;
+}
+
+.sobre img{
+    width: 50%;
+    max-width: 450px;
+    display: inline-block;
+    height: 450px;
+    border-radius: 7%;
+    border: 3px solid #000;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.texto{
+    display: inline-block;
+    padding: 30px 10px;
+    width: 45%;
+    vertical-align: top;
+    text-align: left;
+}
+
+.texto p{
+    margin: 25px 0;
+    line-height: 20px;
+    text-transform: initial;
+    padding-left: 35px;
 }

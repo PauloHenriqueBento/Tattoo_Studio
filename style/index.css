@@ -1,3 +1,4 @@
+/* Geral */
 *{
     text-decoration: none;
 }
@@ -13,6 +14,17 @@ body{
     width: 80%;
     max-width: 940px;
     margin: 0 auto;
+}
+
+.subtitulo{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 70px;
 }
 
 /* Cabeçado */
@@ -48,7 +60,8 @@ header nav ul li a {
     color: #ffffff;
     font-weight: bold;
     text-decoration: none;
-    font-size: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
     margin: 5px;
     padding: 8px;
 }
@@ -92,6 +105,22 @@ header nav ul li a:hover{
     margin-top: -20px;
     font-size: 21px;
 }
+/* Quebra */
+.quebra
+{
+    width: 100%;
+    height: 150px;
+    background: url(../imagens/geek.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.quebra p{
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+}
 /* Rodapé */
 
 footer{
@@ -110,4 +139,8 @@ footer{
 footer a{
     text-decoration: none;
     color: #fff;
+}
+
+.contatos ul li{
+    display: block;
 }
