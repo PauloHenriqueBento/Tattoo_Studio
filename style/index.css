@@ -64,6 +64,7 @@ header nav ul li a {
     font-size: 18px;
     margin: 5px;
     padding: 8px;
+    transition: .3s ease all;
 }
 
 header nav ul li a:hover{

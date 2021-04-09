@@ -21,7 +21,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="tattoos.html">Tattoos</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
                     <li><a href="contatos.html">Contatos</a></li>
                     <li><a href="index.html">Sobre</a></li>
                 </ul>
@@ -29,45 +29,75 @@
         </div>
     </header>
 
-    <!-- Coloquei uma div fora da main, pra pode colcoar a imagem e colocar um fundo diferente-->
-    <div id="fundo-banner">
-        <section class="container">
-            <img src="imagens/banner.jpg" alt="banner" id="banner">
-        </section>
-    </div>
+    <!-- Introdução -->
+    <section class="introducao">
+        <div class="container">
+            <h2>Lamon Ink</h2>
+            <p>Tatuador Geek</p>
+        </div>
+    </section>
 
     <main>
+        <!-- Lista com os serviços -->
         <section class="container">
-            <h2>Serviços</h2>
-            <ul>
+            <h2 class="subtitulo">Serviços</h2>
+            <ul class="servicos_lista">
                 <li>
-                    <h3>Parcelamento</h3>
-                    <img src="imagens/parcelamentoBranco.png" class="icon">
-                    <p>Possivel parcelar sua tatuagem, em até 10x dependendo do valor total. Consulte nossa equipe.</p>
+                    <div class="servicos_icone">
+                        <img src="./imagens/icons/tattooBranco.png" alt="" class="icon">
+                    </div>
+                    <div class="container">
+                        <h3>Personalizado</h3>
+                        <p>Tatuagens únicas e exclusivas para cada cliente!</p>
+                    </div>
                 </li>
                 <li>
-                    <h3>Normas de segurança</h3>
-                    <img src="imagens/seguroBranco.png" class="icon">
-                    <p>Seguimos todos os protocolos de segurança exigidos pela ANVISA.</p>
+                    <div class="servicos_icone">
+                        <img src="./imagens/icons/seguroBranco.png" alt="" class="icon">
+                    </div>
+                    <div class="container">
+                        <h3>Segurança</h3>
+                        <p>Equipamentos e local esterilizado e higienizados!</p>
+                    </div>
                 </li>
                 <li>
-                    <h3>Arte exclusiva</h3>
-                    <img src="imagens/tattooBranco.png" class="icon">
-                    <p>Tenha estampada em sua pele uma arte exclusiva trabalhada para você!</p>
+                    <div class="servicos_icone">
+                        <img src="./imagens/icons/parcelamentoBranco.png" alt="" class="icon">
+                    </div>
+                    <div class="container">
+                        <h3>Parcelamos</h3>
+                        <p>Parcelamos suas tattoo!</p>
+                    </div>
                 </li>
             </ul>
         </section>
+
+        <!-- Portfolio -->
     </main>
 
+    <!-- Quebra-->
+    <section class="quebra">
+        <p>"Persiga seus sonho!"</p>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <address class="endereco">
+        <address class="endereco" class="container">
             Rua Prof. Cardoso Rangel, Nº. 21<br>
             Grajau, São Paulo - SP <br>
             CEP: 04843-360
         </address>
-        <div class="endereco">
-            <spam>Telefone:</spam>
-            <a href="tel: +5511965268597">(11) 965268597</a>
+        <div class="endereco contatos">
+            <ul>
+                <li>
+                    <span>Telefone:</span>
+                    <a href="tel: +5511965268597">(11) 965268597</a>
+                </li>
+                <li>
+                    <span>Email:</span>
+                    <a href="email: ">email@asdsadasda.com</a>
+                </li>
+        </ul>
     </footer>
 
 </body>

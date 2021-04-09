@@ -50,6 +50,7 @@ main section{
     font-weight: bold;
     letter-spacing: 1px;
     border-radius: 5px;
+    transition: .3s ease all;
 }
 
 .btn:hover{
@@ -95,6 +96,7 @@ main section{
 }
 .button.btn-branco{
     color: #fff;
+    transition: .3s ease all;
 }
 
 .btn.btn-branco{
@@ -132,7 +134,7 @@ main section{
 
 .texto p{
     margin: 25px 0;
-    line-height: 20px;
+    line-height: 25px;
     text-transform: initial;
     padding-left: 35px;
 }
