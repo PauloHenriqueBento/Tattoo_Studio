@@ -38,7 +38,7 @@ main section h2{
     background: #120333;
 }
 
-.icon{
+.icon_servicos{
     padding: 35px;
     width: 80px;
 }
@@ -47,4 +47,37 @@ main section h2{
     font-size: 22px;
     color: #fff;
     text-transform: uppercase;
+}
+
+/* Portfolio */
+.portfolio{
+    width: 100%;
+    background: #000;
+    margin-bottom: -80px;
+}
+
+.portfolio h2{
+    color: #fff;
+}
+
+.portfolio ul{
+    margin-bottom: 80px;
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+.portfolio ul li{
+    display: inline-block;
+    width: 32%;
+    height: 350px;
+    vertical-align: top;
+    margin: 0px 2px;
+    border: 2px solid #fff;
+    text-align: center;
+    box-shadow: 2px 2px 5px #fff;
+    margin-bottom: 10px;
+}
+.portfolio ul li img{
+    width: 100%;
+    height: 100%;
 }
