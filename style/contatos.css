@@ -32,8 +32,8 @@ fieldset{
 }
 
 form input[type=submit]{
-    width: 30%;
-    min-width: 300px;
+    width: 15%;
+    /*min-width: 300px;*/
     margin: 10px auto;
     background: #120333;
     color: #fff;
@@ -46,4 +46,8 @@ form input[type=submit]:hover{
     border: 1px solid #120333;
     background-color: #fff;
     color: #000;
+}
+
+.btn{
+    border-radius: 10px;
 }

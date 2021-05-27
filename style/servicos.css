@@ -56,6 +56,10 @@ main section h2{
     margin-bottom: -80px;
 }
 
+.portfolio-servicos{
+    border-radius: 20px;
+}
+
 .portfolio h2{
     color: #fff;
 }

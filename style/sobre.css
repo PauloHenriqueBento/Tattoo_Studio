@@ -98,6 +98,8 @@ video {
     line-height: 25px;
     text-transform: initial;
     padding-left: 35px;
+    margin: 0;
+    /*text-indent: 2em;*/
 }
 
 .destaques {
@@ -198,11 +200,16 @@ footer {
 }
 
 .endereco {
-    padding-top: 10px;
+    padding-top: 13px;
     display: inline-block;
     width: 40%;
     text-align: right;
     vertical-align: top;
+    font-style: normal;
+}
+
+.contatos{
+    padding-top: 0px;
 }
 
 footer a {

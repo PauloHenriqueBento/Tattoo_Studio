@@ -192,11 +192,16 @@ footer {
 }
 
 .endereco {
-    padding-top: 10px;
+    padding-top: 13px;
     display: inline-block;
     width: 40%;
     text-align: right;
     vertical-align: top;
+    font-style: normal;
+}
+
+.contatos{
+    padding-top: 0px;
 }
 
 footer a {
@@ -207,5 +212,6 @@ footer a {
 .contatos ul li {
     display: block;
 }
+
 
 
