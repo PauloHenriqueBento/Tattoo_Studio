@@ -120,6 +120,11 @@ header nav ul li a:hover {
     background: rgba(0, 0, 0, 0.64);
 }
 
+.wrap.sobreVideo {
+    /*Ajuste a largura e altura desejadas aqui*/
+    margin-top: -90px;
+}
+
 .wrap .bg-video {
     position: absolute;
     top: 0;
@@ -194,11 +199,17 @@ footer {
 .endereco {
     padding-top: 13px;
     display: inline-block;
-    width: 40%;
-    text-align: right;
+    width: 49.76%;
+    text-align: left;
     vertical-align: top;
     font-style: normal;
+    margin-bottom: 10px;
 }
+
+.iconRodape{
+    text-align: right;
+}
+
 
 .contatos{
     padding-top: 0px;

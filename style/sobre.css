@@ -48,21 +48,12 @@ header nav ul li a:hover {
     background-color: #fff;
 }
 
-.container {
-    width: 80%;
-    max-width: 940px;
-    margin: 0 auto;
-}
 
 .sobre {
     text-align: center;
     background-color: black;
 }
 
-video {
-    width: 70%;
-    height: auto;
-}
 
 .sobreimg img {
     width: 50%;
@@ -197,15 +188,6 @@ video {
 footer {
     background-color: #000;
     color: #fff;
-}
-
-.endereco {
-    padding-top: 13px;
-    display: inline-block;
-    width: 40%;
-    text-align: right;
-    vertical-align: top;
-    font-style: normal;
 }
 
 .contatos{

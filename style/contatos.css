@@ -11,9 +11,10 @@ form label, form legend {
 
 form input, form textarea, form select {
     display: block;
-    padding: 10px;
-    width: 100%;
+    width: 99.2%;
     font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 form input[type=radio], form input[type=checkbox]{
@@ -48,6 +49,26 @@ form input[type=submit]:hover{
     color: #000;
 }
 
-.btn{
-    border-radius: 10px;
+.btn {
+    border: 3px solid #120333;
+    padding: 10px 30px;
+    color: #120333;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 10%;
+    transition: .3s ease all;
 }
+
+.btn:hover {
+    background-color: #120333;
+    color: #fff;
+}
+
+.button.contato{
+    text-align: center;
+    margin-bottom: 35px;
+}
+

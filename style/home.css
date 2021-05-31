@@ -114,6 +114,19 @@ main section{
     color: #000;
 }
 
+.button {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.button.servicos{
+    margin-bottom: 7px;
+}
+
+.sobre.button{
+    margin-bottom: 35px;
+}
+
 /* Sobre */
 .sobre{
     margin-bottom: 20px;

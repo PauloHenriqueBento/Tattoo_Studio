@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
 
@@ -9,52 +10,45 @@
 
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Serviços</title>
 </head>
+
 <body>
 
     <!-- Barra fixa no topo-->
     <header>
         <div class="barra-inicial">
-            <div class="icon">
-                
-                <a href="https://www.facebook.com/paginalamon" target="_blank">
-                    <i class="fa fa-facebook-square" style="font-size:40px;color:black;"></i>
-                </a>
 
-                <a href="https://www.instagram.com/lamon_ink/" target="_blank">
-                    <i class=" icon-estilo fa fa-instagram" style="font-size:40px;color:black;"></i>
-                </a>
-
-                <a href="https://wa.me/5511996503894" target="_blank">
-                    <i class="fa fa-whatsapp" style="font-size:40px;color:black;"></i>
-                </a>
-            </div>
         </div>
         <div class="container">
-                 <h1><img id="logo" src="imagens/logo.png"
-                        alt="foto do logo do estudio do tatuador"></h1>
+            <h1><img id="logo" src="imagens/logo.png" alt="foto do logo do estudio do tatuador"></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="servicos.html">Serviços</a></li>
-                    <li><a href="contatos.html">Contatos</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <!-- Introdução -->
-    <section class="introducao">
-        <div class="container">
+    <div class="wrap">
+
+        <div class="bg-video">
+            <video autoplay muted loop src="./videos/TIRO 4_2.mp4" height="500"></video>
+        </div>
+        <div class="container bg-video-text">
             <h2>Lamon Ink</h2>
             <p>Tatuador Geek</p>
         </div>
-    </section>
+
+    </div>
 
     <main>
         <!-- Lista com os serviços -->
@@ -105,7 +99,7 @@
                     <li class="portfolio-servicos">
                         <img src="./imagens/portfolio/img3.jpg" alt="printer Jiraiya" class="portfolio-servicos">
                     </li>
-                    
+
                     <li class="portfolio-servicos">
                         <img src="./imagens/portfolio/img4.jpg" alt="Tattoo na praia" class="portfolio-servicos">
                     </li>
@@ -137,20 +131,32 @@
 
     <!-- Footer -->
     <footer>
-        <address class="endereco" class="container">
+        <div class="container">
+
+        <address class="endereco">
             Rua Prof. Cardoso Rangel, Nº. 21<br>
             Grajau, São Paulo - SP <br>
         </address>
-        <div class="endereco contatos">
-            <ul>
-                <li>
-                    <a href="tel: +5511965268597"><i class="fa fa-whatsapp" style="font-size: 25px; border-color: white;"></i></a>
-                </li>
-                <li>
-                    <a href="email: "><i class="fa fa-envelope" style="font-size: 20px; border-color: white;"></i></a>
-                </li>
-        </ul>
+        <div class="endereco iconRodape">
+            <a href="https://www.facebook.com/paginalamon" target="_blank">
+                <i class="fa fa-facebook-square" style="font-size: 40px; color: white;"></i>
+            </a>
+
+            <a href="https://www.instagram.com/lamon_ink/" target="_blank">
+                <i class=" icon-estilo fa fa-instagram" style="font-size: 40px; color: white;"></i>
+            </a>
+
+            <a href="https://wa.me/5511996503894" target="_blank">
+                <i class="fa fa-whatsapp" style="font-size: 40px; color: white; margin-right: 5px"></i>
+            </a>
+            <a href="email: ">
+                <i class="fa fa-envelope" style="font-size: 40px; color: white;"></i>
+            </a>
+        </div>
+        
+    </div>
     </footer>
 
 </body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
 
@@ -9,39 +10,27 @@
 
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Tattoos</title>
 </head>
+
 <body>
     <!-- Barra fixa no topo-->
     <header>
         <div class="barra-inicial">
-            <div class="icon">
-                
-                <a href="https://www.facebook.com/paginalamon" target="_blank">
-                    <i class="fa fa-facebook-square" style="font-size:40px;color:black;"></i>
-                </a>
 
-                <a href="https://www.instagram.com/lamon_ink/" target="_blank">
-                    <i class=" icon-estilo fa fa-instagram" style="font-size:40px;color:black;"></i>
-                </a>
-
-                <a href="https://wa.me/5511996503894" target="_blank">
-                    <i class="fa fa-whatsapp" style="font-size:40px;color:black;"></i>
-                </a>
-            </div>
         </div>
         <div class="container">
-                 <h1><img id="logo" src="imagens/logo.png"
-                        alt="foto do logo do estudio do tatuador"></h1>
+            <h1><img id="logo" src="imagens/logo.png" alt="foto do logo do estudio do tatuador"></h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="servicos.html">Serviços</a></li>
-                    <li><a href="contatos.html">Contatos</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
                 </ul>
             </nav>
         </div>
@@ -60,22 +49,23 @@
             <h2>Contato e orçamento de tattoos!</h2>
             <form>
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" placeholder="Primeiro nome" required>
+                <input type="text" id="nome" placeholder="" required>
 
                 <label for="sobrenome">Sobrenome</label>
-                <input type="text" id="sobrenome" placeholder="Sobrenome" required>
+                <input type="text" id="sobrenome" placeholder="" required>
 
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="exemplo@email.com.br" required>
+                <input type="email" id="email" placeholder="" required>
 
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" placeholder="(99) 99999-9999" required>
+                <input type="tel" id="telefone" placeholder="" required>
 
                 <label for="local_corpo">Local do corpo</label>
-                <input type="text" id="local_corpo" placeholder="Local desejado" required>
+                <input type="text" id="local_corpo" placeholder="" required>
 
                 <label for="cm">Tamanho em centímetro</label>
                 <select name="tamanho" id="cm" required>
+                    <option value="selecione" selected>Selecione um tamanho</option>
                     <option value="menosdez">Menos que 10cm</option>
                     <option value="dez_quinze">10-15Cm</option>
                     <option value="dezesseis_vinte">16-20cm</option>
@@ -86,7 +76,7 @@
                 <textarea id="descricao" cols="30" rows="10" required></textarea>
 
                 <fieldset>
-                    <legend>Tem disponibilidade de vim ao studio?</legend>
+                    <legend>Tem disponibilidade de vir ao studio?</legend>
                     <input type="radio" id="local-sim" name="contato" checked>
                     <label for="local-sim" class="label-inline">Sim</label>
 
@@ -94,7 +84,9 @@
                     <label for="local-nao" class="label-inline">Não</label>
                 </fieldset>
 
-                <input type="submit" value="Enviar" class="btn">
+                <div class="button contato">
+                    <a type="submit" class="btn btn-preto">Enviar</a>
+                </div>
             </form>
         </section>
     </main>
@@ -106,20 +98,31 @@
 
     <!-- Footer -->
     <footer>
-        <address class="endereco" class="container">
+        <div class="container">
+
+        <address class="endereco">
             Rua Prof. Cardoso Rangel, Nº. 21<br>
             Grajau, São Paulo - SP <br>
         </address>
-        <div class="endereco contatos">
-            <ul>
-                <li>
-                    <a href="tel: +5511965268597"><i class="fa fa-whatsapp" style="font-size: 25px; border-color: white;"></i></a>
-                </li>
-                <li>
-                    <a href="email: "><i class="fa fa-envelope" style="font-size: 20px; border-color: white;"></i></a>
-                </li>
-        </ul>
-    </footer>
+        <div class="endereco iconRodape">
+            <a href="https://www.facebook.com/paginalamon" target="_blank">
+                <i class="fa fa-facebook-square" style="font-size: 40px; color: white;"></i>
+            </a>
+
+            <a href="https://www.instagram.com/lamon_ink/" target="_blank">
+                <i class=" icon-estilo fa fa-instagram" style="font-size: 40px; color: white;"></i>
+            </a>
+
+            <a href="https://wa.me/5511996503894" target="_blank">
+                <i class="fa fa-whatsapp" style="font-size: 40px; color: white; margin-right: 5px"></i>
+            </a>
+            <a href="email: ">
+                <i class="fa fa-envelope" style="font-size: 40px; color: white;"></i>
+            </a>
+        </div>
+        
+    </div>
 
 </body>
+
 </html>

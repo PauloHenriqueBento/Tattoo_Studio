@@ -20,11 +20,7 @@
     <!-- Barra fixa no topo-->
     <header>
         <div class="barra-inicial">
-            <div class="icon">
-                <i class="fa fa-facebook-square" style="font-size:40px;color:black;"></i>
-                <i class=" icon-estilo fa fa-instagram" style="font-size:40px;color:black;"></i>
-                <i class="fa fa-whatsapp" style="font-size:40px;color:black;"></i>
-            </div>
+
         </div>
         <div class="container">
             <h1><img id="logo" src="imagens/logo.png" alt="foto do logo do estudio do tatuador"></h1>
@@ -32,19 +28,26 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="servicos.html">Serviços</a></li>
-                    <li><a href="contatos.html">Contatos</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <div class="wrap sobreVideo">
+
+        <div class="bg-video">
+            <video autoplay muted loop src="./videos/TIRO 4_2.mp4" height="500"></video>
+        </div>
+        <div class="container bg-video-text">
+            <h2>Lamon Ink</h2>
+            <p>Tatuador Geek</p>
+        </div>
+
+    </div>
+
     <!-- Sobre -->
-    <section class="sobre">
-        <video autoplay muted loop="true">
-            <source src="videos/TIRO 4_2.mp4" type="video/mp4">
-        </video>
-    </section>
     <section class="sobreimg container">
         <h2 class="subtitulo">Sobre</h2>
         <img src="imagens/sobre.jpg" alt="Lamon">
@@ -77,19 +80,30 @@
 
     <!-- Footer -->
     <footer>
-        <address class="endereco" class="container">
+        <div class="container">
+
+        <address class="endereco">
             Rua Prof. Cardoso Rangel, Nº. 21<br>
             Grajau, São Paulo - SP <br>
         </address>
-        <div class="endereco contatos">
-            <ul>
-                <li>
-                    <a href="tel: +5511965268597"><i class="fa fa-whatsapp" style="font-size: 25px; border-color: white;"></i></a>
-                </li>
-                <li>
-                    <a href="email: "><i class="fa fa-envelope" style="font-size: 20px; border-color: white;"></i></a>
-                </li>
-        </ul>
-    </footer>
+        <div class="endereco iconRodape">
+            <a href="https://www.facebook.com/paginalamon" target="_blank">
+                <i class="fa fa-facebook-square" style="font-size: 40px; color: white;"></i>
+            </a>
+
+            <a href="https://www.instagram.com/lamon_ink/" target="_blank">
+                <i class=" icon-estilo fa fa-instagram" style="font-size: 40px; color: white;"></i>
+            </a>
+
+            <a href="https://wa.me/5511996503894" target="_blank">
+                <i class="fa fa-whatsapp" style="font-size: 40px; color: white; margin-right: 5px"></i>
+            </a>
+            <a href="email: ">
+                <i class="fa fa-envelope" style="font-size: 40px; color: white;"></i>
+            </a>
+        </div>
+        
+    </div>
 </body>
+
 </html>
