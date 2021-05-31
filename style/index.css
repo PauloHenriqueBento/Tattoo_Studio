@@ -98,16 +98,7 @@ header nav ul li a:hover {
 }
 
 /* Introducao */
-/*
-.introducao {
-    width: 100%;
-    height: 380px;
-    background: url(../imagens/machine.jpg) no-repeat center;
-    background-size: cover;
-    margin-top: 60px;
-    text-align: center;
-    padding-top: 90px;
-}*/
+
 .wrap {
     /*Ajuste a largura e altura desejadas aqui*/
     margin-top: 60px;

@@ -27,8 +27,7 @@ main section{
 }
 
 .servicos ul li{
-    display: inline-block;
-    margin: 25px 0;
+    margin: 40px 0;
 }
 
 .button{
@@ -140,6 +139,7 @@ main section{
     border-radius: 7%;
     border: 3px solid #000;
     box-shadow: 5px 5px 10px #000;
+  
 }
 
 .texto{
@@ -156,5 +156,4 @@ main section{
     text-transform: initial;
     padding-left: 35px;
     margin: 0;
-    /*text-indent: 2em;*/
 }
